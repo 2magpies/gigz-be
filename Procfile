@@ -1,0 +1,1 @@
+web: gunicorn nextgig_be_django.wsgi —-log-file -

@@ -8,6 +8,12 @@ verify_ssl = true
 [packages]
 django = "*"
 psycopg2-binary = "*"
+django-cors-headers = "*"
+gunicorn = "*"
+whitenoise = "*"
+dj-database-url = "*"
+django-heroku = "*"
+python-decouple = "*"
 
 [requires]
 python_version = "3.8"
